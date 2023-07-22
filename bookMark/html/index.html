@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Amatic+SC&family=Cormorant+Garamond:ital,wght@1,700&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row py-3">
+            <div class="jumbotron">
+
+                <h2>Book Mark Your Favourite Site </h1>
+
+                 <input type="text" id="WebsiteName" class="form-control my-3" placeholder="Site Name">
+
+                 <input type="text" id="WebsiteLink" class="form-control" placeholder="Site URL">
+                <div class="col-md-2 offset-5">
+                                  <button class="save-btn" onclick="saveBookMark()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class=" ">
+            <thead>
+                <th class="w-25" >Site Name</th>
+                <th class="w-50" >Site URL</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="table-info">
+                
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
